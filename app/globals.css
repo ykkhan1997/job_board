@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 82px;
+}
+/* home page carousel css  */
+.home_carousel > div .slick-track > div {
+   padding-right: 64px;
+}
+
+@media only screen and (max-width: 992px) {
+   .home_carousel > div .slick-track > div {
+      padding-right: 40px;
+   }
+}
+
+@media only screen and (max-width: 540px) {
+   .home_carousel > div .slick-track > div {
+      padding-right: 28px;
+   }
+}
+
+/* slick list design  */
+.home_carousel > .slick-list {
+   padding: 0 !important;
+   margin: 0 46px;
+}
+
+@media only screen and (max-width: 992px) {
+   .home_carousel > .slick-list {
+      padding: 0 !important;
+      margin: 0 27px;
+   }
+}
+
+@media only screen and (max-width: 540px) {
+   .home_carousel > .slick-list {
+      padding: 0 !important;
+      margin: 0 20px;
+   }
+}
+
+/*next arrow design  */
+.home_carousel > .slick-next {
+   right: -6px !important;
+   width: 9px !important;
+   height: 15px !important;
+}
+
+@media only screen and (max-width: 540px) {
+   .home_carousel > .slick-next {
+      right: -12px !important;
+   }
+}
+
+/*prev arrow design  */
+.home_carousel > .slick-prev {
+   left: -6px !important;
+   width: 9px !important;
+   height: 15px !important;
+}
+
+@media only screen and (max-width: 540px) {
+   .home_carousel > .slick-prev {
+      left: -12px !important;
+   }
+}
